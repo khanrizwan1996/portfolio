@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rizwan Khan | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100">
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-gray-800 shadow z-50">
+    <nav class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
+      <div class="text-2xl font-bold text-gray-100">Rizwan Khan</div>
+      <ul class="hidden md:flex space-x-8 font-medium">
+        <li><a href="#home" class="hover:text-gray-400">Home</a></li>
+        <li><a href="#about" class="hover:text-gray-400">About</a></li>
+        <li><a href="#skills" class="hover:text-gray-400">Skills</a></li>
+        <li><a href="#experience" class="hover:text-gray-400">Experience</a></li>
+        <li><a href="#education" class="hover:text-gray-400">Education</a></li>
+        <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+      </ul>
+      <div class="flex items-center space-x-3">
+        <button id="menu-toggle" class="md:hidden flex flex-col space-y-1">
+          <span class="w-6 h-0.5 bg-gray-100"></span>
+          <span class="w-6 h-0.5 bg-gray-100"></span>
+          <span class="w-6 h-0.5 bg-gray-100"></span>
+        </button>
+      </div>
+    </nav>
+    <ul id="mobile-menu" class="hidden flex-col space-y-4 bg-gray-800 px-6 py-6 md:hidden shadow">
+      <li><a href="#home" class="block hover:text-gray-400">Home</a></li>
+      <li><a href="#about" class="block hover:text-gray-400">About</a></li>
+      <li><a href="#skills" class="block hover:text-gray-400">Skills</a></li>
+      <li><a href="#experience" class="block hover:text-gray-400">Experience</a></li>
+      <li><a href="#education" class="block hover:text-gray-400">Education</a></li>
+      <li><a href="#contact" class="block hover:text-gray-400">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-6 bg-gray-900">
+    <h1 class="text-5xl md:text-7xl font-extrabold mb-4 text-gray-100">Rizwan Rehman Khan</h1>
+    <p class="text-xl md:text-2xl mb-8 text-gray-400">Full-Stack PHP Developer | Backend Engineer</p>
+    <div class="flex space-x-4">
+      <a href="#experience" class="bg-gray-100 text-gray-900 px-8 py-3 rounded-full shadow hover:bg-gray-300">Explore My Work</a>
+      <a href="Rizwan_Khan_Resume_PHP.docx" download class="bg-gray-700 text-gray-100 px-8 py-3 rounded-full shadow hover:bg-gray-600">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24 max-w-6xl mx-auto px-6 bg-gray-800 rounded-lg">
+    <h2 class="text-4xl font-bold text-center mb-10">About Me</h2>
+    <div>
+      <p class="text-lg leading-relaxed text-gray-300">Results-driven Software Developer with over 5 years of experience in full-stack web development, API engineering, and cloud-based application design. Proficient in PHP (Core & Zend Framework), JavaScript, and MySQL. Adept at RESTful API development, OOP, and MVC architecture. Passionate about delivering scalable solutions and collaborating with Agile teams.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-24 bg-gray-900 px-6">
+    <h2 class="text-4xl font-bold text-center mb-12">Technical Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+      <div class="p-6 bg-gray-800 rounded-xl shadow text-center">PHP (Core, Zend, Laravel)</div>
+      <div class="p-6 bg-gray-800 rounded-xl shadow text-center">JavaScript, AJAX</div>
+      <div class="p-6 bg-gray-800 rounded-xl shadow text-center">HTML5 & CSS3</div>
+      <div class="p-6 bg-gray-800 rounded-xl shadow text-center">MySQL</div>
+      <div class="p-6 bg-gray-800 rounded-xl shadow text-center">RESTful APIs</div>
+      <div class="p-6 bg-gray-800 rounded-xl shadow text-center">OOP, MVC</div>
+      <div class="p-6 bg-gray-800 rounded-xl shadow text-center">Zend Framework</div>
+      <div class="p-6 bg-gray-800 rounded-xl shadow text-center">Tools: Jira, Bitbucket, SVN</div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="py-24 max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-12">Work Experience</h2>
+    <div class="space-y-10">
+      <div class="bg-gray-800 p-8 rounded-xl shadow">
+        <h3 class="text-2xl font-semibold">Software Developer – Immply Cloud India Pvt. Ltd.</h3>
+        <p class="italic text-gray-400">March 2022 – July 2025</p>
+        <ul class="list-disc pl-6 mt-4 space-y-2 text-gray-300">
+          <li>Developed RESTful APIs using Zend Framework.</li>
+          <li>Maintained Campaign and Segment modules with milestone logic and dynamic rules engine.</li>
+        </ul>
+      </div>
+      <div class="bg-gray-800 p-8 rounded-xl shadow">
+        <h3 class="text-2xl font-semibold">Web Developer – Georeach Technologies Pvt. Ltd.</h3>
+        <p class="italic text-gray-400">June 2019 – Feb 2022</p>
+        <ul class="list-disc pl-6 mt-4 space-y-2 text-gray-300">
+          <li>Developed custom web apps using Core PHP and Zend Framework.</li>
+          <li>Built AJAX-powered interfaces for real-time updates.</li>
+          <li>Optimized MySQL databases with indexing and stored procedures.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-24 bg-gray-800 px-6">
+    <h2 class="text-4xl font-bold text-center mb-12">Education</h2>
+    <div class="max-w-3xl mx-auto space-y-8">
+      <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold">MBA – IT (Pursuing)</h3>
+        <p class="italic text-gray-400">Savitribai Phule Pune University</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold">Bachelor’s in Computer Applications (BCA)</h3>
+        <p class="italic text-gray-400">Savitribai Phule Pune University</p>
+      </div>
+       <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold">SSC & HSC</h3>
+        <p class="italic text-gray-400">Maharashtra Board</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 max-w-5xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-12">Contact Me</h2>
+    <div class="grid md:grid-cols-2 gap-12">
+      <div class="space-y-4 text-lg text-gray-300">
+        <p>📍 Pune, India</p>
+        <p>📞 8446331797</p>
+        <p>📧 <a href="mailto:developer.khanrizwan@gmail.com" class="text-gray-100 hover:text-gray-400">developer.khanrizwan@gmail.com</a></p>
+        <p>💼 <a href="https://www.linkedin.com/in/khanrizwan07" target="_blank" class="text-gray-100 hover:text-gray-400">LinkedIn</a></p>
+      </div>
+      <form class="space-y-6">
+        <input type="text" placeholder="Name" class="w-full p-4 rounded-lg border bg-gray-900 text-gray-100" required>
+        <input type="email" placeholder="Email" class="w-full p-4 rounded-lg border bg-gray-900 text-gray-100" required>
+        <textarea placeholder="Message" rows="5" class="w-full p-4 rounded-lg border bg-gray-900 text-gray-100" required></textarea>
+        <button type="submit" class="w-full bg-gray-100 text-gray-900 py-3 rounded-lg hover:bg-gray-300">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center bg-gray-800 text-gray-400">
+    <p>&copy; 2025 Rizwan Khan. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
